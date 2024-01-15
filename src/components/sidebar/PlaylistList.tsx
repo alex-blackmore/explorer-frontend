@@ -32,6 +32,7 @@ const displayActive = (
     <li
       className={styles.join(" ")}
       onClick={(e) => handleClick(e, index, setSelectedIndex)}
+      key={index}
     >
       <PlaylistItem name={name} />
     </li>
